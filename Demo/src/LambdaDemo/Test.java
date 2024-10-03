@@ -25,13 +25,8 @@ interface interf{
 
 public class Test{
 	public static void main(String[] args) {
-		interf i =()->System.out.println("M1 methos ipmplemetation");
+		interf i =()->System.out.println("M1 methos ipmplemetation First");
 		i.m1();
 	}
 }
-public class Test{
-	public static void main(String[] args) {
-		interf i =()->System.out.println("M1 methos ipmplemetation");
-		i.m1();
-	}
-}
+
